@@ -23,6 +23,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #ffffff;
+    display: contents;
   }
   &__text {
     font-family: DM Sans;
@@ -50,11 +51,10 @@
     position: relative;
     margin-top: 259px;
     ::after {
-      content: url(../images/Ellipse.png);
-      position: absolute;
-      top: 210px;
-      right: 160px;
-      margin-right: 0;
+      content: url(../images/Group-ellipse.png);
+      position: relative;
+      top: -155px;
+      right: 40%;
     }
 
     &:nth-child(1) {
@@ -87,4 +87,7 @@
       }
     }
   }
+}
+.title__wraper {
+  position: relative;
 }

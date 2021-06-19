@@ -56,6 +56,12 @@
     width: 34px;
     height: 34px;
     margin-right: 24px;
+    fill: #fff;
+    background-color: #ffa5ba;
+    border-radius: 50%;
+    &:hover {
+      background-color: #D41443;
+    }
   }
 }
 
@@ -94,8 +100,9 @@
   border-top: 1px solid #e1e1e1;
 
   &__text {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     margin-top: 9px;
+    margin-bottom: 0;
   }
 }
 

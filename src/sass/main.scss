@@ -4,5 +4,11 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+@import './base/common';
+
+@import './utils/variables';
+
+@import './layouts/about';
+
 @import './example';
 @import './footer';

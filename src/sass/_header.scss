@@ -1,0 +1,100 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    background: #ffb8ca;
+    margin-bottom: 0;
+  }
+  .navigation__list {
+    display: none;
+  }
+  .navigation__button {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 37px;
+    margin-bottom: 0;
+    background: #ffb8ca;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list-header {
+      display: none;
+    }
+    .buy_btn {
+      width: 160px;
+      height: 44px;
+      border-radius: 22px;
+      background: #ffffff;
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: #d41443;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    position: relative;
+    padding-left: 46px;
+    padding-right: 115px;
+    padding-top: 37px;
+    margin-bottom: 0;
+    background: #ffb8ca;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list-header {
+      position: absolute;
+      left: 280px;
+      top: 35px;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      z-index: 4;
+    }
+    &__link {
+      text-decoration: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      color: #ffffff;
+      margin-left: 30px;
+    }
+    &__link:hover,
+    &__link:focus {
+      color: #d41443;
+    }
+  }
+  .buy_btn {
+    width: 160px;
+    height: 44px;
+    border-radius: 22px;
+    background: #ffffff;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.312;
+    text-align: center;
+    color: #d41443;
+    cursor: pointer;
+  }
+}

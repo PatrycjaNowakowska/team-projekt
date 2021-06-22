@@ -1,0 +1,473 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    background: #ffb8ca;
+    height: 443px;
+    padding-left: 20px;
+    padding-top: 137px;
+    &__title {
+      position: absolute;
+      top: 170px;
+      width: 218px;
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 1.153;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      z-index: 2;
+    }
+    &__red {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 96.5%;
+      text-transform: uppercase;
+      color: #d41443;
+    }
+    &__text {
+      display: none;
+    }
+    &__numbers {
+      display: none;
+    }
+    &__buttons {
+      position: absolute;
+      top: 317px;
+      z-index: 3;
+    }
+    &__icecream {
+      position: absolute;
+      top: 92px;
+      left: 117px;
+      z-index: 1;
+    }
+    &__icecream-tablet {
+      display: none;
+    }
+    &__icecream-desktop {
+      display: none;
+    }
+    &__ellipse {
+      position: absolute;
+      top: 83px;
+      left: 36px;
+    }
+    &__ellipse-tablet {
+      display: none;
+    }
+    &__ellipse-desktop {
+      display: none;
+    }
+    &__ellipsed {
+      display: none;
+    }
+    &__milk-tablet {
+      display: none;
+    }
+    &__tasty-tablet {
+      display: none;
+    }
+    &__tasty-desktop {
+      display: none;
+    }
+    &__ellipse-numbers {
+      display: none;
+    }
+    &__ellipse-numbers1 {
+      display: none;
+    }
+    &__ellipse-desktop {
+      display: none;
+    }
+    &__milk-desktop {
+      display: none;
+    }
+    &__ellipse-desktop1 {
+      display: none;
+    }
+    &__arrow-btn {
+      display: none;
+    }
+    &__arrow-btnd {
+      display: none;
+    }
+    .products_btn {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 1.25;
+      align-items: center;
+      text-align: center;
+      background-color: #d41443;
+      color: #ffffff;
+      width: 61px;
+      height: 24px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .how_btn {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 1.25;
+      align-items: center;
+      text-align: center;
+      color: #d41443;
+      width: 83px;
+      height: 24px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    &__arrow-btn {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    background: #ffb8ca;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-top: 0;
+    height: 309px;
+
+    &__title {
+      width: 162px;
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 1.137;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding-top: 15px;
+      margin-top: 0;
+    }
+    &__red {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      line-height: 96.5%;
+      text-transform: uppercase;
+      color: #d41443;
+    }
+    &__text {
+      position: absolute;
+      top: 284px;
+      left: 154px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 150%;
+      color: #ffffff;
+      width: 114px;
+    }
+    &__numbers {
+      position: absolute;
+      top: 80px;
+      right: 45px;
+    }
+    &__list {
+      list-style: none;
+    }
+    &__item {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 1.142;
+      text-align: right;
+      letter-spacing: 0.04em;
+      color: #d41443;
+      margin-bottom: 13px;
+      width: 70px;
+    }
+    &__item-text {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 1.25;
+      text-align: right;
+      color: #ffffff;
+      margin: 0;
+    }
+    &__icecream-tablet {
+      position: absolute;
+      top: 63px;
+      left: 378px;
+      z-index: 1;
+    }
+    &__ellipse-tablet {
+      position: absolute;
+      top: 31px;
+      left: 303px;
+    }
+    &__milk-tablet {
+      position: absolute;
+      top: 245px;
+      left: 34px;
+    }
+    &__tasty-tablet {
+      position: absolute;
+      top: 266px;
+      left: 566px;
+    }
+    &__icecream {
+      display: none;
+    }
+    &__icecream-desktop {
+      display: none;
+    }
+    &__ellipse {
+      display: none;
+    }
+    &__ellipse-desktop {
+      display: none;
+    }
+    &__ellipse-desktop1 {
+      display: none;
+    }
+    &__ellipse-numbers {
+      position: absolute;
+      top: 94px;
+      right: 35px;
+    }
+    &__ellipsed {
+      display: none;
+    }
+    &__tasty-desktop {
+      display: none;
+    }
+    &__milk-desktop {
+      display: none;
+    }
+    &__ellipse-numbers1 {
+      position: absolute;
+      top: 151px;
+      right: 35px;
+    }
+    &__arrow-btn {
+      position: absolute;
+      top: 347px;
+      left: 155px;
+      cursor: pointer;
+    }
+    &__arrow-btnd {
+      display: none;
+    }
+  }
+  .products_btn {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    align-items: center;
+    text-align: center;
+    background-color: #d41443;
+    color: #ffffff;
+    width: 61px;
+    height: 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .how_btn {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    align-items: center;
+    text-align: center;
+    color: #d41443;
+    width: 83px;
+    height: 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: #ffb8ca;
+    margin-top: 0;
+    height: 575px;
+    &__title {
+      width: 277px;
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 1.137;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding-top: 84px;
+      margin-left: 115px;
+      margin-top: 0;
+    }
+    &__red {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 58px;
+      line-height: 96.5%;
+      text-transform: uppercase;
+      color: #d41443;
+    }
+    &__buttons {
+      margin-left: 115px;
+    }
+    &__numbers {
+      display: flex;
+      width: 250px;
+      position: absolute;
+      top: 156px;
+      right: -10px;
+      z-index: 6;
+    }
+    &__list {
+      list-style: none;
+    }
+    &__text {
+      position: absolute;
+      top: 470px;
+      left: 295px;
+      font-size: 14px;
+      line-height: 140%;
+      color: #ffffff;
+      width: 200px;
+    }
+    &__item {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 1.152;
+      text-align: right;
+      letter-spacing: 0.04em;
+      color: #d41443;
+    }
+    &__item-text {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.285;
+      text-align: right;
+      color: #ffffff;
+      margin-top: 0;
+    }
+    &__icecream-desktop {
+      position: absolute;
+      top: 108px;
+      left: 594px;
+      z-index: 2;
+    }
+    &__icecream {
+      display: none;
+    }
+    &__icecream-tablet {
+      display: none;
+    }
+    &__ellipsed {
+      position: absolute;
+      top: 52px;
+      left: 475px;
+      z-index: 1;
+    }
+    &__ellipse-desktop {
+      position: absolute;
+      top: 169px;
+      right: 90px;
+    }
+    &__ellipse-desktop1 {
+      position: absolute;
+      top: 255px;
+      right: 90px;
+    }
+    &__ellipse {
+      display: none;
+    }
+    &__ellipse-tablet {
+      display: none;
+    }
+    &__milk-tablet {
+      display: none;
+    }
+    &__milk-desktop {
+      position: absolute;
+      top: 429px;
+      left: 77px;
+    }
+    &__tasty-tablet {
+      display: none;
+    }
+    &__tasty-desktop {
+      position: absolute;
+      top: 433px;
+      left: 878px;
+      z-index: 5;
+    }
+    &__ellipse-numbers {
+      display: none;
+    }
+    &__ellipse-numbers1 {
+      display: none;
+    }
+    &__arrow-btnd {
+      position: absolute;
+      top: 583px;
+      left: 295px;
+      cursor: pointer;
+    }
+    &__arrow-btn {
+      display: none;
+    }
+  }
+
+  .products_btn {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.285;
+    align-items: center;
+    text-align: center;
+    background-color: #d41443;
+    color: #ffffff;
+    width: 104px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .how_btn {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.285;
+    align-items: center;
+    text-align: center;
+    color: #d41443;
+    width: 138px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}

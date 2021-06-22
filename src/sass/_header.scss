@@ -5,12 +5,19 @@
     padding-top: 6px;
     background: #ffb8ca;
     margin-bottom: 0;
+    position: relative;
   }
   .navigation__list {
     display: none;
   }
   .navigation__button {
     display: none;
+  }
+  .hamburger {
+    fill: #d41443;
+    position: absolute;
+    right: 20px;
+    top: 21px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -20,6 +27,7 @@
     padding-top: 37px;
     margin-bottom: 0;
     background: #ffb8ca;
+    position: relative;
   }
   .navigation {
     display: flex;
@@ -42,6 +50,13 @@
       text-align: center;
       color: #d41443;
     }
+  }
+  .hamburger {
+    fill: #d41443;
+    position: absolute;
+    right: 230px;
+    top: 55px;
+    z-index: 1;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -96,5 +111,8 @@
     text-align: center;
     color: #d41443;
     cursor: pointer;
+  }
+  .hamburger {
+    display: none;
   }
 }

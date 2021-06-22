@@ -12,6 +12,7 @@
 
 .list {
   list-style: none;
+  padding-inline-start: 0;
 }
 // ==== end componenty ====//
 
@@ -32,7 +33,6 @@
     text-align: left;
     text-transform: uppercase;
     color: #ffa5ba;
-    
   }
   &__title {
     font-family: Titan One;
@@ -64,9 +64,9 @@
     fill: #fff;
     background-color: #ffa5ba;
     border-radius: 50%;
-    
+
     &:hover {
-      background-color: #D41443;
+      background-color: #d41443;
     }
   }
 }
@@ -122,7 +122,6 @@
 // ==== end rights ====//
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -130,47 +129,46 @@
     max-width: 1199px;
     min-width: 768px;
     display: flex;
-   }
-
-   .social {
-     &__list {
-       margin-top: 0;
-     }
-   }
-   .titles {
-     width: 376px;
-     padding: 0;
-     &__subtitle {
-       text-align: left;
-       padding-left: 36px;
-       font-size: 26px;
-       width: 376px;
-     }
-     &__title {
-     text-align: left;
-     padding-left: 36px;
-     font-size: 48px;
-     width: 376px;
-   }
-  }
-   .contact__item {
-     font-size: 14px;
-     padding-left: 36px;
-   }
-   .right-side {
-     padding-right: 10px;
-     margin-left: 50px;
-   }
-   .rights {
-     &__text {
-       width: 276px;
-       margin-left: 248px;
-     }
-   }
   }
 
+  .social {
+    &__list {
+      margin-top: 0;
+    }
+  }
+  .titles {
+    width: 376px;
+    padding: 0;
+    &__subtitle {
+      text-align: left;
+      padding-left: 36px;
+      font-size: 26px;
+      width: 376px;
+    }
+    &__title {
+      text-align: left;
+      padding-left: 36px;
+      font-size: 48px;
+      width: 376px;
+    }
+  }
+  .contact__item {
+    font-size: 14px;
+    padding-left: 36px;
+  }
+  .right-side {
+    padding-right: 10px;
+    margin-left: 50px;
+  }
+  .rights {
+    &__text {
+      width: 276px;
+      margin-left: 248px;
+    }
+  }
+}
 
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px) {
   // ==== componenty ====//
   .footer {
     background-color: #fff5f6;
@@ -199,7 +197,6 @@
 
     width: 474px;
     padding: 0;
-    
 
     &__subtitle {
       font-family: Titan One;
@@ -248,7 +245,7 @@
       border-radius: 50%;
 
       &:hover {
-        background-color: #D41443;
+        background-color: #d41443;
       }
     }
   }

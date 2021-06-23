@@ -1,0 +1,470 @@
+.vector {
+    fill: #000;
+    width: 15px;
+    height: 15px;
+    ;
+}
+
+.franchise__btn {
+    &:hover {
+        background-color: #ECEBEB;
+    }
+}
+.contacts__title {
+    display: none;
+}
+
+.contacts__btns {
+    background-color: #fff5f6;
+    text-align: center;
+   
+}
+
+.contacts__packs {
+    background-color: #fff5f6;
+    margin-bottom: 0;
+
+}
+
+.contacts__pack {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  
+}
+.contacts__1category,
+.contacts__2category,
+.contacts__3category {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.contacts__1category, .contacts__3category {
+    background-color: #F0D1A5;
+   
+}
+
+.contacts__2category {
+    background-color: #C2E297;
+}
+.contacts__city {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.contacts__description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #907E82;
+}
+.contacts__open {
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+.contacts__open-days {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  color: #000000;
+}
+
+.contacts__open-hours {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    color: #FFA5BA;
+}
+
+.contacts__contact-tel,
+.contacts__contact-mail {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #907E82;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .contacts__pack {
+        width: 220px;
+        height: 427px;
+        padding: 43px 21px;
+        padding-left: 21px;
+        &:nth-child(1) {
+        margin-bottom: 20px;
+        }
+        &:nth-child(2) {
+          margin-bottom: 20px;
+        }
+    }
+
+    .contacts__in {
+        padding-left: 21px;
+    }
+    .contacts__1category, .contacts__2category, .contacts__3category {
+        font-size: 12px;
+    }
+
+    .contacts__cities {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 21px;
+    }
+    .contacts__city {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .contacts__description {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .contacts__open {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: 21px;
+    }
+
+    .contacts__open-days {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .contacts__open-hours {
+      font-size: 12px;
+      margin: 0;
+      padding-bottom: 10px;
+    }
+
+    .contacts__contact {
+        padding-top: 25px;
+        margin-left: 21px;
+    }
+    .contacts__contact-tel,
+    .contacts__contact-mail {
+        font-size: 12px;
+    }
+
+    .contacts__1category,
+    .contacts__3category {
+        width: 80px;
+        height: 16px;
+        border-radius: 4px;
+        margin-left: 21px;
+    }
+
+    .contacts__2category {
+      width: 130px;
+      height: 16px;
+      border-radius: 4px;
+      margin-left: 21px;
+    }
+
+    .contacts__btns {
+      padding-bottom: 113px;
+      padding-top: 54px;
+    }
+
+    .franchise__btn {
+      width: 161px;
+      height: 44px;
+      border-radius: 22px;
+      background: #ffffff;
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: #d41443;
+      margin-top: 10px;
+    }
+
+    .locations__btn {
+      width: 161px;
+      height: 44px;
+      border-radius: 22px;
+      background: #d41443;
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: #fff;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contacts__packs {
+        display: flex;
+        max-height: 544px;
+        }
+
+    .contacts__pack {
+      width: 220px;
+      height: 544px;
+      padding: 50px 32px;
+      padding-left: 32px;
+      margin-bottom: 81px;
+      margin-right: 20px;
+    
+    }
+
+    .contacts__in {
+      padding-left: 32px;
+    }
+
+    .contacts__1category,
+    .contacts__2category,
+    .contacts__3category {
+      font-size: 16px;
+    }
+
+    .contacts__cities {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 32px;
+    }
+
+    .contacts__city {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 14px;
+    }
+
+    .contacts__description {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .contacts__open {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 32px;
+    }
+
+    .contacts__open-days {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .contacts__open-hours {
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 16px;
+    }
+
+    .contacts__contact {
+      padding-top: 30px;
+      margin-left: 32px;
+    }
+
+    .contacts__contact-tel,
+    .contacts__contact-mail {
+      font-size: 14px;
+    }
+
+    .contacts__1category,
+    .contacts__3category {
+      width: 73px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 32px;
+    }
+
+    .contacts__2category {
+      width: 138px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 32px;
+    }
+
+    .contacts__btns {
+      padding-bottom: 158px;
+      padding-top: 81px;
+    }
+
+    .franchise__btn {
+      width: 174px;
+      height: 44px;
+      border-radius: 22px;
+      background: #ffffff;
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: #d41443;
+    }
+
+    .locations__btn {
+      width: 192px;
+      height: 44px;
+      border-radius: 22px;
+      background: #d41443;
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: #fff;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1200px)  {
+    .contacts__packs {
+        display: flex;
+        justify-content: center;
+        background: url("../images/contactsbg.png") no-repeat;
+        background-color: #fff5f6;
+        background-size: 1200px;
+    }
+    .contacts__pack {
+      width: 330px;
+      height: 572px;
+      padding: 51px 44px 62px 43px;
+      margin-bottom: 20px;
+      margin-right: 31px;
+      
+    }
+
+    .contacts__in {
+      padding-left: 43px;
+    }
+
+    .contacts__1category,
+    .contacts__2category,
+    .contacts__3category {
+      font-size: 16px;
+    }
+
+    .contacts__cities {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      padding-left: 43px;
+    }
+
+    .contacts__city {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+    .contacts__description {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .contacts__open {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      margin-left: 43px;
+    }
+
+    .contacts__open-days {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .contacts__open-hours {
+      font-size: 16px;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+
+    .contacts__contact {
+      padding-top: 32px;
+      margin-left: 43px;
+    }
+
+    .contacts__contact-tel,
+    .contacts__contact-mail {
+      font-size: 16px;
+    }
+
+    .contacts__1category,
+    .contacts__3category {
+      width: 73px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 43px;
+    }
+
+    .contacts__2category {
+      width: 138px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 43px;
+    }
+
+    .contacts__btns {
+      padding-bottom: 165px;
+      padding-top: 86px;
+    }
+    
+    .franchise__btn {
+        width: 180px;
+        height: 44px;
+        border-radius: 22px;
+        background: #ffffff;
+        border: none;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.312;
+        text-align: center;
+        color: #d41443;
+    }
+
+    .locations__btn {
+        width: 198px;
+        height: 44px;
+        border-radius: 22px;
+        background: #d41443;
+        border: none;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.312;
+        text-align: center;
+        color: #fff;
+    }
+
+}

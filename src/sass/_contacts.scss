@@ -350,6 +350,9 @@
     .contacts__packs {
         display: flex;
         justify-content: center;
+        background: url("../images/contactsbg.png") no-repeat;
+        background-color: #fff5f6;
+        background-size: 1200px;
     }
     .contacts__pack {
       width: 330px;
@@ -357,6 +360,7 @@
       padding: 51px 44px 62px 43px;
       margin-bottom: 20px;
       margin-right: 31px;
+      
     }
 
     .contacts__in {

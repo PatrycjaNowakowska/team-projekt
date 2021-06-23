@@ -102,13 +102,17 @@
       line-height: 1.25;
       align-items: center;
       text-align: center;
-      background-color: #d41443;
+      background: #d41443;
       color: #ffffff;
       width: 61px;
       height: 24px;
       border-radius: 20px;
       border: none;
       cursor: pointer;
+
+      &:hover {
+        background: #C7133E;
+      }
     }
     .how_btn {
       font-family: DM Sans;
@@ -119,16 +123,21 @@
       align-items: center;
       text-align: center;
       color: #d41443;
+      background: #ffffff;
       width: 83px;
       height: 24px;
       border: none;
       border-radius: 20px;
       cursor: pointer;
+
+      &:hover {
+        background: #ECEBEB
     }
     &__arrow-btn {
       display: none;
     }
   }
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
@@ -275,13 +284,17 @@
     line-height: 1.25;
     align-items: center;
     text-align: center;
-    background-color: #d41443;
+    background: #d41443;
     color: #ffffff;
     width: 61px;
     height: 24px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
+
+     &:hover {
+        background: #C7133E;
+      }
   }
   .how_btn {
     font-family: DM Sans;
@@ -292,12 +305,17 @@
     align-items: center;
     text-align: center;
     color: #d41443;
+    background: #ffffff;
     width: 83px;
     height: 24px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+
+    &:hover {
+      background: #ECEBEB
   }
+}
 }
 @media screen and (min-width: 1200px) {
   .hero {
@@ -446,7 +464,7 @@
     line-height: 1.285;
     align-items: center;
     text-align: center;
-    background-color: #d41443;
+    background: #d41443;
     color: #ffffff;
     width: 104px;
     height: 40px;
@@ -454,6 +472,10 @@
     border: none;
     cursor: pointer;
     margin-right: 15px;
+
+     &:hover {
+        background: #C7133E;
+      }
   }
   .how_btn {
     font-family: DM Sans;
@@ -464,10 +486,15 @@
     align-items: center;
     text-align: center;
     color: #d41443;
+    background: #ffffff;
     width: 138px;
     height: 40px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+
+    &:hover {
+      background: #ECEBEB;
+    }
   }
 }

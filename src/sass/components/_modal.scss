@@ -1,0 +1,143 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal {
+    padding-top: 60px;
+    padding-left: 21px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 502px;
+    background: #e17992;
+    z-index: 1;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding-left: 0;
+      margin-top: 32px;
+    }
+    &__item {
+      margin-bottom: 22px;
+    }
+    &__link {
+      text-decoration: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.285;
+      color: #ffffff;
+
+      &:hover,
+      &:focus {
+        color: #d41443;
+      }
+    }
+  }
+  .buy_btn {
+    width: 209px;
+    height: 44px;
+    border-radius: 22px;
+    background: #ffffff;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.312;
+    text-align: center;
+    color: #d41443;
+    cursor: pointer;
+    z-index: 1;
+
+    &:hover {
+      background: #ecebeb;
+    }
+  }
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #ffffff;
+    cursor: pointer;
+  }
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    padding-top: 60px;
+    padding-left: 34px;
+    position: absolute;
+    top: 511px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 254px;
+    height: 1020px;
+    background: #e17992;
+    z-index: 1;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding-left: 0;
+      margin-top: 32px;
+    }
+    &__item {
+      margin-bottom: 22px;
+    }
+    &__link {
+      text-decoration: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.285;
+      color: #ffffff;
+
+      &:hover,
+      &:focus {
+        color: #d41443;
+      }
+    }
+  }
+  .buy_btn {
+    width: 186px;
+    height: 44px;
+    border-radius: 22px;
+    background: #ffffff;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.312;
+    text-align: center;
+    color: #d41443;
+    cursor: pointer;
+    z-index: 1;
+
+    &:hover {
+      background: #ecebeb;
+    }
+  }
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    fill: #ffffff;
+    cursor: pointer;
+  }
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

@@ -16,7 +16,7 @@
                 <li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="navigation__hamburger"><svg class="hamburger" width="20" height="12">
+        <div class="navigation__hamburger" data-modal-open><svg class="hamburger" width="20" height="12">
                 <use href="../src/images/icons.svg#icon-Burger"></use>
             </svg></div>
         <div class="navigation__button">
@@ -26,3 +26,18 @@
         </div>
     </div>
 </section>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <div class="close-btn" data-modal-close><svg class="close-icon" width="14" height="14">
+            <use href="../src/images/icons.svg#icon-close"></use></svg>
+        <button class="buy_btn" type="button">Buy now ></button>
+        <ul class="modal__list">
+            <li class="modal__item"><a class="modal__link" href="#home" data-modal-close>Home</a></li>
+            <li class="modal__item"><a class="modal__link" href="#">About us</a></li>
+            <li class="modal__item"><a class="modal__link" href="#">How it's made?</a></li>
+            <li class="modal__item"><a class="modal__link" href="#our-products">Our products</a></li>
+            <li class="modal__item"><a class="modal__link" href="#">Contact</a></li></div>
+        </ul>
+        </div>
+    </div>
+<script src="../js/modal.js"></script>

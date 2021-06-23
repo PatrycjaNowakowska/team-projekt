@@ -56,3 +56,87 @@
       }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .reviews__opinion {
+    font-size: 14px;
+    width: 620px;
+    height: 164px;
+    padding: 30px 36px 28px 40px;
+    margin-left: 74px;
+    margin-top: 19px;
+
+    &:before {
+      content: "";
+      background-image: url(../images/reviews/before.png);
+      width: 54px;
+      height: 40px;
+      display: inline-block;
+    }
+  }
+
+  .reviews__sign {
+    font-size: 16px;
+    margin-bottom: 119px;
+    margin-top: 24px;
+
+    &:before {
+      content: "";
+      background-image: url(../images/reviews/minidots.png);
+      width: 32px;
+      height: 4px;
+      display: inline-block;
+    }
+
+    &:after {
+      content: "";
+      background-image: url(../images/reviews/rdots.png);
+      width: 72px;
+      height: 12px;
+      display: inline-block;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px)  {
+
+  .reviews__opinion {
+    font-size: 16px;
+    width: 926px;
+    height: 138px;
+    padding: 32px 54px 32px 50px;
+    margin-left: 178px;
+    margin-top: 15px;
+
+    &:before {
+      content: "";
+      background-image: url(../images/reviews/before.png);
+      width: 54px;
+      height: 40px;
+      display: inline-block;
+    }
+  }
+
+  .reviews__sign {
+    font-size: 20px;
+    margin-bottom: 132px;
+    margin-top: 15px;
+
+    &:before {
+      content: "";
+      background-image: url(../images/reviews/minidots.png);
+      width: 32px;
+      height: 4px;
+      display: inline-block;
+    }
+
+    &:after {
+      content: "";
+      background-image: url(../images/reviews/rdots.png);
+      width: 72px;
+      height: 12px;
+      display: inline-block;
+    }
+  }
+}

@@ -19,3 +19,8 @@
 </symbol>
 </defs>
 </svg>
+
+
+<symbol id="icon-vector" viewBox="0 0 32 32">
+<path d="M6 4l20 12-20 12z"></path>
+</symbol>

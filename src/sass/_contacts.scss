@@ -155,7 +155,172 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contacts__packs {
+        display: flex;
+    }
+    .contacts__pack {
+      width: 220px;
+      height: 544px;
+      padding: 50px 32px;
+      padding-left: 32px;
+      margin-bottom: 81px;
+      margin-right: 20px;
+    
+    }
+
+    .contacts__in {
+      padding-left: 32px;
+    }
+
+    .contacts__1category,
+    .contacts__2category,
+    .contacts__3category {
+      font-size: 16px;
+    }
+
+    .contacts__cities {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 32px;
+    }
+
+    .contacts__city {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 14px;
+    }
+
+    .contacts__description {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .contacts__open {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 32px;
+    }
+
+    .contacts__open-days {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .contacts__open-hours {
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 16px;
+    }
+
+    .contacts__contact {
+      padding-top: 30px;
+      margin-left: 32px;
+    }
+
+    .contacts__contact-tel,
+    .contacts__contact-mail {
+      font-size: 14px;
+    }
+
+    .contacts__1category,
+    .contacts__3category {
+      width: 73px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 32px;
+    }
+
+    .contacts__2category {
+      width: 138px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 32px;
+    }
+    
+}
 
 
-@media screen and (min-width: 1200px)  {}
+@media screen and (min-width: 1200px)  {
+    .contacts__packs {
+        display: flex;
+        justify-content: center;
+    }
+    .contacts__pack {
+      width: 330px;
+      height: 572px;
+      padding: 51px 44px 62px 43px;
+      margin-bottom: 20px;
+      margin-right: 31px;
+    }
+
+    .contacts__in {
+      padding-left: 43px;
+    }
+
+    .contacts__1category,
+    .contacts__2category,
+    .contacts__3category {
+      font-size: 16px;
+    }
+
+    .contacts__cities {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      padding-left: 43px;
+    }
+
+    .contacts__city {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+    .contacts__description {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .contacts__open {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      margin-left: 43px;
+    }
+
+    .contacts__open-days {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .contacts__open-hours {
+      font-size: 16px;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+
+    .contacts__contact {
+      padding-top: 32px;
+      margin-left: 43px;
+    }
+
+    .contacts__contact-tel,
+    .contacts__contact-mail {
+      font-size: 16px;
+    }
+
+    .contacts__1category,
+    .contacts__3category {
+      width: 73px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 43px;
+    }
+
+    .contacts__2category {
+      width: 138px;
+      height: 28px;
+      border-radius: 6px;
+      margin-left: 43px;
+    }
+
+}

@@ -7,7 +7,8 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
-  line-height: 255%;
+  size: 12px;
+  line-height: 31px;
   text-align: center;
   color: #000000;
   background: #fafafa;
@@ -23,20 +24,30 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .opinion__wraper {
+    padding: 43px 66px 26px 57px;
+    background-color: #fafafa;
+    margin-top: 29px;
+  }
   .reviews__opinion {
     font-size: 12px;
-    width: 280px;
-    height: 308px;
-    padding: 43px 66px 26px 57px;
+    width: 180px;
+    padding: 0 23px;
     margin-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 56px;
+
+    position: relative;
+    z-index: 1;
+    background: repeating-linear-gradient(#fafafa, #fafafa 30px, #e1e1e1 30px, #e1e1e1 31px);
     &:before {
       content: '';
       background-image: url(../images/reviews/before.png);
       width: 54px;
       height: 40px;
       display: inline-block;
+      position: absolute;
+      right: 115px;
+      top: -20px;
+      z-index: -1;
     }
   }
 
@@ -73,21 +84,27 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .opinion__wraper {
+    padding: 30px 36px 28px 40px;
+    background-color: #fafafa;
+    margin-top: 29px;
+  }
   .reviews__opinion {
     display: flex;
     font-size: 14px;
     width: 544px;
-    height: 164px;
-    padding: 30px 36px 28px 40px;
-    margin-left: 95px;
-    margin-right: 95px;
 
+    position: relative;
+    z-index: 1;
+    background: repeating-linear-gradient(#fafafa, #fafafa 30px, #e1e1e1 30px, #e1e1e1 31px);
     &:before {
-      content: '';
-      background-image: url(../images/reviews/before.png);
+      content: url(../images/reviews/before.png);
       width: 54px;
       height: 40px;
-      display: inline-block;
+      position: absolute;
+      right: 515px;
+      top: -18px;
+      z-index: -1;
     }
   }
 
@@ -120,27 +137,36 @@
   }
   .reviews__photo {
     display: flex;
-    margin-left: 341px;
+    margin-left: 292px;
     margin-top: 160px;
     margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .opinion__wraper {
+    padding: 32px 54px 32px 50px;
+    background-color: #fafafa;
+    margin-top: 29px;
+  }
   .reviews__opinion {
     display: flex;
     font-size: 16px;
     width: 822px;
-    height: 138px;
-    padding: 32px 54px 32px 50px;
-    margin-left: auto;
 
+    position: relative;
+    z-index: 1;
+    background: repeating-linear-gradient(#fafafa, #fafafa 30px, #e1e1e1 30px, #e1e1e1 31px);
     &:before {
       content: '';
       background-image: url(../images/reviews/before.png);
       width: 54px;
       height: 40px;
       display: inline-block;
+      position: absolute;
+      right: 797px;
+      top: -15px;
+      z-index: -1;
     }
   }
 
@@ -172,7 +198,7 @@
   }
   .reviews__photo {
     display: flex;
-    margin-left: 385px;
+    margin-left: 412px;
     margin-top: 123px;
     margin-bottom: 50px;
   }

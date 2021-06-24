@@ -1,0 +1,22 @@
+.footer {
+  background-color: #fff5f6;
+  min-width: 320px;
+  height: 247px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.arrow__btn {
+  width: 40px;
+  height: 40px;
+  background: url(../images/arrow-right.png);
+  border-radius: 0%;
+  border: none;
+  cursor: pointer;
+}

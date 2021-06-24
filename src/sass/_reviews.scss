@@ -1,3 +1,8 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .reviews__opinion {
   font-family: DM Sans;
   font-style: normal;
@@ -16,12 +21,7 @@
   text-align: center;
   color: #000000;
 }
-.reviews__photo {
-  position: absolute;
-  top: 3700px;
-  left: 118px;
-  margin-top: 80px;
-}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .reviews__opinion {
     font-size: 12px;
@@ -29,7 +29,7 @@
     height: 308px;
     padding: 43px 66px 26px 57px;
     margin-left: 20px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 56px;
     &:before {
       content: '';
@@ -47,6 +47,7 @@
     font-size: 14px;
     margin-bottom: 86px;
     margin-top: 30px;
+    margin-left: auto;
     &:before {
       content: '';
       background-image: url(../images/reviews/minidots.png);
@@ -64,19 +65,22 @@
       margin-top: 30px;
     }
   }
+  .reviews__photo {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 115px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .reviews__opinion {
     display: flex;
-
     font-size: 14px;
     width: 544px;
     height: 164px;
     padding: 30px 36px 28px 40px;
     margin-left: 95px;
     margin-right: 95px;
-    margin-top: 230px;
 
     &:before {
       content: '';
@@ -94,6 +98,7 @@
     font-size: 16px;
     margin-bottom: 119px;
     margin-top: 24px;
+    margin-left: 40px;
 
     &:before {
       content: '';
@@ -114,9 +119,8 @@
     }
   }
   .reviews__photo {
-    position: absolute;
-    top: 2100px;
-    left: 341px;
+    display: flex;
+    margin-left: 341px;
     margin-top: 160px;
     margin-bottom: 50px;
   }
@@ -129,8 +133,7 @@
     width: 822px;
     height: 138px;
     padding: 32px 54px 32px 50px;
-    margin-left: 178px;
-    margin-top: 255px;
+    margin-left: auto;
 
     &:before {
       content: '';
@@ -168,10 +171,9 @@
     }
   }
   .reviews__photo {
-    position: absolute;
-    top: 2650px;
-    left: 565px;
-    margin-top: 160px;
+    display: flex;
+    margin-left: 385px;
+    margin-top: 123px;
     margin-bottom: 50px;
   }
 }
